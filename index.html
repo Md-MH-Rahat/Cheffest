@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/icons.css">
+    <link rel="stylesheet" href="./src/tailwind.css">
 </head>
 <body class=" dark dark:bg-[#0D0D0D] pakar">
-    <nav class="bg-transparent md:bg-slate-100 dark:bg-transparent dark:md:bg-black  absolute w-full top-0 left-0 z-50  pt-[100px]  md:pt-4 ">
+    <nav class="bg-transparent md:bg-slate-100 dark:bg-transparent dark:md:bg-black  absolute w-full top-0 left-0 z-50  pt-[100px]  md:pt-4 " style="position: fixed;">
         <div class="container">
             <div class="grid grid-cols-[auto_1fr] md:grid-cols-[auto_1fr_auto] pt-5 md:pt-0 ">
                 <a href="" class="absolute md:static left-1/2 top-2 -translate-x-1/2 w-[80px] h-[80px] md:w-auto md:h-auto pb-3 pt-[20px] md:pt-0 cheffest_logo">
@@ -49,10 +50,10 @@
                       </svg>
                 </span>
                 <ul class="hidden md:flex justify-center items-center gap-[6px]">
-                    <li><a class=" p-4 capitalize text-lg dark:text-white text-black leading-tight" href="#">Welcome</a></li>
-                    <li><a class=" p-4 capitalize text-lg dark:text-white text-black leading-tight" href="#">Our Menu</a></li>
-                    <li><a class=" p-4 capitalize text-lg dark:text-white text-black leading-tight" href="#">Franchise</a></li>
-                    <li><a class=" p-4 capitalize text-lg dark:text-white text-black leading-tight" href="#">Contact</a></li>
+                    <li><a class=" p-4 capitalize text-lg dark:text-white text-black leading-tight" href="#welcome">Welcome</a></li>
+                    <li><a class=" p-4 capitalize text-lg dark:text-white text-black leading-tight" href="#ourmenu">Our Menu</a></li>
+                    <li><a class=" p-4 capitalize text-lg dark:text-white text-black leading-tight" href="#franchise">Franchise</a></li>
+                    <li><a class=" p-4 capitalize text-lg dark:text-white text-black leading-tight" href="#contact">Contact</a></li>
                 </ul>
                 <div class="flex gap-4 items-center justify-end ">
                     <div>
@@ -110,7 +111,7 @@
           =======================-->
           
           
-          <section>
+          <section id="welcome">
               <div class="container">
                   <div class="text-center ">
                       <h2 class="pb-4">Why We are Best Food Maker</h2>
@@ -145,7 +146,7 @@
         <!--====================== 
             Food cart section start
           =======================-->
-          <section>
+          <section id="ourmenu">
             <div class="container">
                 <div>
                     <h2 class="pb-[10px] md:pb-10">Our Best & Delicious Menu</h2>
@@ -340,7 +341,7 @@
         <!--================================== 
             Start The Adventure section start
           ====================================-->
-          <section>
+          <section id='franchise'>
             <div class="container">
                 <div class="text-center">
                     <div>
@@ -663,7 +664,7 @@
         <!--====================== 
             location section start
           =======================-->
-          <section class="pb-[150px]">
+          <section class="pb-[150px]" id="contact">
                 <div class="container">
                     
                     <div class="grid grid-col-1 md:grid-cols-2 gap-6 md:gap-[145px] md:items-center">
